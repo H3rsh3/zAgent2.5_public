@@ -1,0 +1,28 @@
+# Sensitive data
+.env
+tenants.db
+plan.md
+*.key
+*.pem
+*.p12
+
+# Environment and runtime
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# IDE and Project Settings
+.vscode/
+.idea/
+.obsidian/
+*.code-workspace
+
+
+# OS and Logs
+.DS_Store
+Thumbs.db
+*.log
