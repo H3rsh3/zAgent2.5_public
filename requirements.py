@@ -4,6 +4,7 @@ import sys
 def install_dependencies():
     dependencies = [
         "streamlit",
+        "langchain",
         "langchain-core",
         "langchain-google-genai",
         "langgraph",
@@ -11,7 +12,7 @@ def install_dependencies():
         "sqlmodel",
         "python-dotenv",
         "pydantic",
-        "zscaler",
+        "zscaler-sdk-python",
         "langchain-mcp-adapters",
         "pycountry",
         "uvicorn",
